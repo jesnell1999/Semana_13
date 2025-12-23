@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="flex text_a-center">
+            <a href="#">
+                <h1>
+                    Banco Alpha
+                </h1>
+            </a>
+            <a class="log_out"
+            href="INDEX.html">
+                Cerrar sesión
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="login_page">
+            <!-- <div class="login_header">
+                <h1>
+                Banco Alpha
+                </h1>
+            </div> -->
+            <div class="login_main
+            text_a-center">
+                <h2>Accede a tu cuenta</h2>
+                <h3>Ingrese su contraseña y presione el botón de acceso</h3>
+                <form class="form_login justify_content-center"
+                action="">
+                    <input name="" id="" placeholder="Clave cajero"></input>
+                    <a class="access"
+                    href="HOME.html">
+                        Acceder
+                    </a>
+                </form>
+            </div>
+        </section>
+        <section class="menu
+        text_align-center">
+            <h3>Bienvenido, ¿Que desea hacer?</h3>
+            <div class="main_grid grid">
+                <a class="balance
+                card_option "
+                href="BALANCE.html">
+                    <h4>
+                        Consulte su saldo y movimientos recientes
+                    </h4>
+                    <i>dinero</i>
+                </a>
+                <a class="deposit_money
+                card_option"
+                href="DEPOSIT_MONEY.html">
+                    <h4>
+                        Despositar dinero
+                    </h4>
+                    <i>ahorro</i>
+                </a>
+                <a class="withdraw_money
+                card_option"
+                href="WITHDRAW_MONEY.html">
+                    <h4>
+                        Retirar dinero
+                    </h4>
+                    <i>billete</i>
+                </a>
+                <a class="transfer_money
+                card_option"
+                href="">
+                    <h4>
+                        Transferir dinero
+                    </h4>
+                </a>
+                <a class="change_password
+                card_option"
+                href="">
+                    <h4>
+                        Cambiar contraseña
+                    </h4>
+                </a>
+            </div>
+        </section>
+        <section class="balance">
+            <div class="balance_header">
+                <nav class="flex">
+                    <a href="#">
+                    <h1>
+                    Banco Alpha
+                    </h1>
+                    </a>
+                    <a class="log_out"
+                    href=#>
+                        Regresar
+                    </a>
+                </nav>
+            </div>
+            <div class="balance_main">
+                <h3>
+                Aquí podrá consultar su saldo y movimientos recientes.
+                </h3>
+                <div class="balance_info flex flex_direction-column text_align-center">
+                <p>Saldo actual:</p>
+                <!-- <output></output> -->
+            </div>
+        </section>
+        <section class="deposit_money">
+            <div>
+                <div class="deposit_money_header">
+                    <nav class="flex text_align-center">
+                        <a href="#">
+                        <h1>
+                            Banco Alpha
+                        </h1>
+                        </a>
+                        <a class="log_out"
+                        href=#>
+                            Regresar
+                        </a>
+                    </nav>
+                </div class=" deposit_money">
+                <div class="deposit_money_main">
+                    <h3>
+                    Aquí podrá depositar dinero en su cuenta.
+                    </h3>
+                    <div>
+                    <form class="flex flex_direction-column text_align-center" action="">
+                                <label for="amount">Cantidad a depositar:</label>
+                                <input type="number" id="amount" name="amount" required>
+                                <button type="submit">Depositar</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="withdraw_money_page">
+            <div class="withdraw_money_header">
+                <nav class="flex text_a-center">
+                    <a href="#">
+                    <h1>
+                    Banco Alpha
+                    </h1>
+                    </a>
+                    <a class="log_out"
+                    href=#>
+                        Regresar
+                    </a>
+                </nav>
+            </div>
+            <div class="withdraw_money_main">
+                <h3>Aquí podrá retirar dinero de su cuenta.</h3>
+                <div>
+                <form class="flex flex_direction-column text_align-center" action="">
+                    <label for="amount">Cantidad a retirar:</label>
+                    <input type="number" id="amount" name="amount" required>
+                    <button type="submit">Retirar</button>
+                </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

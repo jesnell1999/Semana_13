@@ -1,0 +1,54 @@
+/*globals*/
+:root {
+--primary-color: #3498db;
+--secondary-color: #8f8f8f;
+--primary-color_font: #000000;
+--secondary-color_font: #ffffff;
+
+--primary-font: 'Roboto', sans-serif;}
+
+body {
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color_font);
+    padding: 20px;
+    text-align: center;
+}
+main {
+    background-color: var(--secondary-color_font);
+    color: var(--primary-color_font);
+}
+a {
+    text-decoration: none;
+}
+a.access {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color_font);
+    border: none;
+    border-radius: 10%;
+    font-weight: bold;
+    padding: 10px;
+}
+/*utilities*/
+.text_align-center {
+    text-align: center;
+}
+.justify_content-space_around {
+    justify-content: space-around;
+}
+/*flex*/
+.flex {
+    display: flex;
+}
+.flex_direction-column {
+    display: flex;
+    flex-direction: column;
+}
+/*flex box*/
+.grid {
+    display: grid;
+}
